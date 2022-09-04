@@ -1,0 +1,19 @@
+.article {
+  &__header {
+    color: red;
+  }
+
+  &__footer {
+    color: blue;
+  }
+
+  // Pseudos class css di gabungkan dengan nama parent
+  &:hover {
+    background-color: gray;
+  }
+
+  &::after {
+    content: ' ';
+    color: red;
+  }
+}

@@ -1,0 +1,16 @@
+$primary: blue;
+$corner: (
+  'success': 10px,
+); //seperti maps [lihat di sini](https://sass-lang.com/documentation/values/maps)
+
+// maps untuk di pake perlu di looping
+
+.btn {
+  background-color: $primary;
+  border-radius: 10px;
+}
+
+.alert {
+  background-color: $primary;
+  border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+$primary-color: red !default;
+
+.btn-primary {
+  background-color: $primary-color;
+}
+
+.alert-primary {
+  color: $primary-color;
+}
+
+.card-primary {
+  border-color: $primary-color;
+}

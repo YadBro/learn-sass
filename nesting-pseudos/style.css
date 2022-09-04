@@ -1,0 +1,15 @@
+.article__header {
+  color: red;
+}
+.article__footer {
+  color: blue;
+}
+.article:hover {
+  background-color: gray;
+}
+.article::after {
+  content: " ";
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

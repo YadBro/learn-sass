@@ -1,0 +1,38 @@
+.article {
+  background-color: #fff;
+}
+.article .title {
+  font-size: 40px;
+}
+.article .body {
+  margin-top: 20px;
+}
+.article .body ul {
+  margin: 0px;
+}
+.article .body ul li:first-child {
+  color: red;
+}
+.article .body .btn {
+  background-color: blue;
+}
+.article .body .btn > .icon {
+  font-size: 20px;
+}
+.article .body .btn ~ .icon2 {
+  font-size: 20px;
+}
+.article .body .btn + .icon2 {
+  font-size: 20px;
+}
+.article .body__header {
+  color: red;
+}
+.article .body__footer {
+  color: blue;
+}
+.article .box {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

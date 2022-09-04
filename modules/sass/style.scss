@@ -1,0 +1,9 @@
+// @use 'library' with (
+//   $primary-color: black,
+// );
+
+@use 'library';
+@use 'components';
+
+// Mencari tau isi variable sepert dump and die, console, dsb.
+@debug library.$primary-color;
