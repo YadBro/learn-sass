@@ -1,0 +1,25 @@
+%btn-base {
+  padding: 10px 15px;
+  transition: all .3s;
+  display: flex;
+}
+
+.btn-primary {
+  @extend %btn-base;
+  background-color: blue;
+}
+
+.btn-warning {
+  @extend %btn-base;
+  background-color: yellow;
+}
+
+.btn-danger {
+  @extend %btn-base;
+  background-color: red;
+}
+
+.btn-success {
+  @extend %btn-base;
+  background-color: green;
+}
