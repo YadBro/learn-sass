@@ -1,0 +1,31 @@
+// % = selector placholder
+
+%btn-base {
+  padding: 10px 15px;
+  transition: all .3s;
+  display: flex;
+}
+
+// Kalo form-base ini gak di pake maka gak akan di compile oleh sass.
+%form-base {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.btn-primary {
+  @extend %btn-base;
+  background-color: blue;
+}
+
+
+// Jadi extend tidak hanya di gunakan untuk mengextend selector placeholder tapi bisa di gunakan untuk mextend sebuah class lain.
+.input-form {
+  padding: 50px;
+  height: 50px;
+}
+
+.input-form-error {
+  @extend .input-form;
+  background-color: red;
+}
