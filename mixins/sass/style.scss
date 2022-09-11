@@ -1,0 +1,32 @@
+@mixin card($bc, $padding) {
+  padding: $padding;
+  background-color: $bc;
+  box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+
+@mixin transition($property, $duration) {
+  transition: $property, $duration;
+  -webkit-transition: $property, $duration;
+  -moz-transition: $property, $duration;
+  -ms-transition: $property, $duration;
+}
+
+.article {
+  @include card(blue, 10px);
+}
+
+.video {
+  @include card(green, 3px);
+}
+
+.news {
+  @include card(blue, 1rem);
+}
+
+.btn {
+  @include transition(all, .3s)
+}
+
+.card {
+  @include transition(all, .5s)
+}
