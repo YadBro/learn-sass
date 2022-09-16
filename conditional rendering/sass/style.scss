@@ -1,0 +1,10 @@
+$playful: false;
+
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  background-color: gray;
+  color: #000;
+  border-radius: if($playful, 10px, null);
+}
