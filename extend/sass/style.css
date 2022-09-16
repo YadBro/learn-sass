@@ -1,4 +1,4 @@
-.btn-success, .btn-danger, .btn-warning, .btn-primary {
+.btn-primary {
   padding: 10px 15px;
   transition: all 0.3s;
   display: flex;
@@ -8,16 +8,13 @@
   background-color: blue;
 }
 
-.btn-warning {
-  background-color: yellow;
+.input-form, .input-form-error {
+  padding: 50px;
+  height: 50px;
 }
 
-.btn-danger {
+.input-form-error {
   background-color: red;
-}
-
-.btn-success {
-  background-color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
