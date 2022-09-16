@@ -1,0 +1,11 @@
+.card {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 0.5;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
