@@ -1,0 +1,19 @@
+$primary: blue;
+$red: red;
+$green: green;
+
+
+// :root {
+//   -primary: $primary;
+//   -red: $red;
+//   -green: $green;
+// }
+
+
+// #{} <= interpolation
+
+:root {
+  -primary: #{$primary};
+  -red: #{$red};
+  -green: #{$green};
+}
