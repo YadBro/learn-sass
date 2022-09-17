@@ -1,0 +1,29 @@
+@use 'sass:string';
+@use 'sass:map';
+
+@debug string.to-upper-case('Hello');
+
+$corner: (
+  'success': 10px,
+);
+
+@debug map.get($corner, 'success');
+
+@function angry($str) {
+  @return to-upper-case($str);
+}
+
+@debug angry('Hello World');
+
+
+@function pxify($n) {
+  @return $n + px;
+}
+
+.font-14px {
+  font-size: pxify(14);
+  color: rgba(#0069ff, .5);
+  background-color: darken(#0069ff, 5%);
+  color-scheme: lighten(#0069ff, 5%);
+}
+
