@@ -1,0 +1,23 @@
+$sizes: 20px 10px 15px 5px 30px;
+$corner: (
+  'success': 10px,
+);
+
+@debug map-get($corner, 'success');
+
+@each $size in $sizes {
+  .font-#{$size} {
+    font-size: $size;
+  }
+}
+
+
+@each $name, $value in $corner {
+  .font-#{$name} {
+    border-radius: $value;
+  }
+}
+
+.font-15px {
+  font-size: nth($sizes, 3);
+}
