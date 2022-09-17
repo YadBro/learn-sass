@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build-css": "sass sass/",
+    "build": "postcss sass/style.css --use autoprefixer -d build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.11",
+    "postcss-cli": "^10.0.0"
+  }
+}

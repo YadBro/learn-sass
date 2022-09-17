@@ -1,0 +1,14 @@
+@use 'library';
+
+$size: 50px;
+
+::placeholder {
+  color: red;
+}
+
+
+h1 {
+  color: rgba(#0069ff, .5);
+  font-size: $size;
+  animation: fadeIn .5s;
+}

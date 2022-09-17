@@ -1,0 +1,24 @@
+$primary-color: red !default;
+
+.article {
+  &__header {
+    color: $primary-color;
+  }
+
+  &__footer {
+    color: blue;
+  }
+
+  // Pseudos class css di gabungkan dengan nama parent
+  &:hover {
+    background-color: gray;
+  }
+
+  &::after {
+    content: ' ';
+    color: $primary-color;
+  }
+}
+
+
+// ( _ ) pake underscore pada penamaan scss untuk mengignore compiler sass

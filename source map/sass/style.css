@@ -1,0 +1,25 @@
+.article__header {
+  color: red;
+}
+.article__footer {
+  color: blue;
+}
+.article:hover {
+  background-color: gray;
+}
+.article::after {
+  content: " ";
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+h1 {
+  color: rgba(0, 105, 255, 0.5);
+  font-size: 50px;
+  animation: fadeIn 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */

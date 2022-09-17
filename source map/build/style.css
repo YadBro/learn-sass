@@ -1,0 +1,30 @@
+.article__header {
+  color: red;
+}
+.article__footer {
+  color: blue;
+}
+.article:hover {
+  background-color: gray;
+}
+.article::after {
+  content: " ";
+  color: red;
+}
+
+::-moz-placeholder {
+  color: red;
+}
+
+::placeholder {
+  color: red;
+}
+
+h1 {
+  color: rgba(0, 105, 255, 0.5);
+  font-size: 50px;
+  -webkit-animation: fadeIn 0.5s;
+          animation: fadeIn 0.5s;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvX2xpYnJhcnkuc2NzcyIsIi4uL3Nhc3Mvc3R5bGUuY3NzIiwiLi4vc2Fzcy9zdHlsZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdFO0VBQ0UsVUFKWTtBQ0VoQjtBREtFO0VBQ0UsV0FBQTtBQ0hKO0FET0U7RUFDRSxzQkFBQTtBQ0xKO0FEUUU7RUFDRSxZQUFBO0VBQ0EsVUFsQlk7QUNZaEI7O0FDUkE7RUFDRSxVQUFBO0FEV0Y7O0FDWkE7RUFDRSxVQUFBO0FEV0Y7O0FDUEE7RUFDRSw2QkFBQTtFQUNBLGVBVEs7RUFVTCw4QkFBQTtVQUFBLHNCQUFBO0FEVUYiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
